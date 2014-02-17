@@ -1,0 +1,15 @@
+//Brandon Knapp
+//Program 6 - CPSC 131
+//Due 5/17/13
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+struct cityNode
+{
+	int number;
+	string name;
+	int totalDistance;
+	int previous;
+};
